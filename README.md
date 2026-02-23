@@ -18,7 +18,7 @@ Most natural-language-inspired conlangs optimize for culture, aesthetics, or dia
 2. Minimal ambiguity from morphology or movement.
 3. Expressive syntax without inflectional complexity.
 
-The result is a language where surface order carries most of the grammatical signal, and where structure can be recovered without lookahead or backtracking.
+The result is a language where surface order carries most of the grammatical signal, and where structure can usually be recovered in a single left-to-right pass with bounded lookahead.
 
 ## At a Glance
 
@@ -239,3 +239,4 @@ Suggested contribution types:
 ## License and Usage
 
 Use Pneŋ for study, creative work, grammar engineering, and tooling experiments. If you redistribute adapted specs, keep source attribution and note your modifications.
+

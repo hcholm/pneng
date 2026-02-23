@@ -4,7 +4,7 @@
 
 ## 1. Core Parsing Constraints
 
-Pneŋ grammar is optimized for deterministic left-to-right parsing with zero lookahead.
+Pneŋ grammar is optimized for deterministic left-to-right parsing with bounded lookahead and lexical constraints.
 
 Hard rules:
 
@@ -14,6 +14,30 @@ Hard rules:
 4. Conjunctions and subordinators are **prefix operators**: `CONJ clause-A clause-B`.
 5. Relative constructions are `ðæt`-first.
 6. Pronouns are invariant; position determines grammatical role.
+
+### 1.1 Parsing Guarantees
+
+Pneŋ is designed for incremental parsing with strong locality constraints. In this spec, the intended guarantee is:
+
+- Deterministic left-to-right parsing.
+- No unbounded backtracking.
+- Only bounded local lookahead for specific category disambiguations.
+
+Zero-lookahead decisions (at point of encounter):
+
+- Clause type markers at clause start (`ke`, `du`, `let`, `hop`).
+- Direct object onset via `ta`.
+- Prefix coordinators/subordinators (`CONJ clause-A clause-B` / `SUBCONJ clause-A clause-B`).
+- Verb-group internal ordering (`Modal > di > Aspect > not > V`).
+
+Bounded-lookahead decisions (local category checks):
+
+- `tu`: preposition (`tu` + NP) vs infinitival marker (`tu` + V) vs degree particle (`tu` + AdjP/Adv).
+- `ðæt`: content-clause introducer vs relativizer (distinguished by syntactic slot and surrounding structure).
+- Perception complements: after `ta NP`, detect `BareV` continuation vs ordinary clause continuation.
+- PP attachment at NP/clause edge: resolved by NP closure rules plus local constituent type and verb licensing.
+
+Operationally, a compliant parser should remain single-pass and deterministic, but may inspect the next local category when forms are intentionally multifunctional.
 
 ## 2. Canonical Clause Shape
 
@@ -58,7 +82,7 @@ V [AdvP*] ta OBJ SUBJ [CoreComp*]
 
 Example: `sī klīrli ta æ kar šī` — "She clearly sees a car."
 
-The presence of `ta` signals that the next NP is the direct object. This resolves the transitive/intransitive distinction at first token after the adverb block, with no lookahead.
+The presence of `ta` signals that the next NP is the direct object. This resolves the transitive/intransitive distinction at the first token after the adverb block; only bounded local lookahead is needed elsewhere (for category disambiguation).
 
 ### 3.3 Ambitransitive
 
@@ -974,4 +998,5 @@ bī šī ðæt di rid ta it aj ðe bük
 CLEFT-FOC  COMP [embedded clause with gap]
 "It is she who read my book."
 ```
+
 
