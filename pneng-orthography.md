@@ -1,6 +1,6 @@
 # Pneŋ Orthography
 
-[Overview](pneng.md) | [Orthography](pneng-orthography.md) | [Grammar](pneng-grammar.md) | [Lexicon](pneng-lexicon.md) | [Examples](pneng-examples.md) | [Sample Text](pneng-sample-text.md)
+[Overview](README.md) | [Orthography](pneng-orthography.md) | [Grammar](pneng-grammar.md) | [Lexicon](pneng-lexicon.md) | [Examples](pneng-examples.md) | [Sample Text](pneng-sample-text.md)
 
 This document defines the orthography for Pneŋ, covering the full core phoneme inventory of General American English.
 
@@ -156,4 +156,5 @@ When importing English vocabulary:
 - [ ] `j` used (not `y`) for consonantal /j/.
 - [ ] `ö` used for NURSE vowel.
 - [ ] TH distinguished as `þ` (voiceless) vs `ð` (voiced).
+
 

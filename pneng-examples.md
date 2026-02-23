@@ -1,6 +1,6 @@
 # Pneŋ Examples (VOS v0.6)
 
-[Overview](pneng.md) | [Orthography](pneng-orthography.md) | [Grammar](pneng-grammar.md) | [Lexicon](pneng-lexicon.md) | [Examples](pneng-examples.md) | [Sample Text](pneng-sample-text.md)
+[Overview](README.md) | [Orthography](pneng-orthography.md) | [Grammar](pneng-grammar.md) | [Lexicon](pneng-lexicon.md) | [Examples](pneng-examples.md) | [Sample Text](pneng-sample-text.md)
 
 All examples enforce:
 
@@ -388,3 +388,4 @@ Content clause objects of T and D verbs are introduced by `ðæt` and are not ma
 | `if rejn hard it rimejn in hām wī` | If it rains hard, we remain at home. (open) |
 | `if di hæv mor tajm aj wud gō tu ðe siti aj` | If I had more time, I would go to the city. (counterfactual) |
 | `if dän di līv örlī šī wud dän ərajv ontajm šī` | If she had left early, she would have arrived on time. (past counterfactual) |
+

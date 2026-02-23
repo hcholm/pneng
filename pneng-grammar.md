@@ -1,6 +1,6 @@
 # Pneŋ Grammar (Parser-Strict v0.6)
 
-[Overview](pneng.md) | [Orthography](pneng-orthography.md) | [Grammar](pneng-grammar.md) | [Lexicon](pneng-lexicon.md) | [Examples](pneng-examples.md) | [Sample Text](pneng-sample-text.md)
+[Overview](README.md) | [Orthography](pneng-orthography.md) | [Grammar](pneng-grammar.md) | [Lexicon](pneng-lexicon.md) | [Examples](pneng-examples.md) | [Sample Text](pneng-sample-text.md)
 
 ## 1. Core Parsing Constraints
 
@@ -974,3 +974,4 @@ bī šī ðæt di rid ta it aj ðe bük
 CLEFT-FOC  COMP [embedded clause with gap]
 "It is she who read my book."
 ```
+

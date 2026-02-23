@@ -1,6 +1,6 @@
 # Pneŋ Lexicon (v0.4)
 
-[Overview](pneng.md) | [Orthography](pneng-orthography.md) | [Grammar](pneng-grammar.md) | [Lexicon](pneng-lexicon.md) | [Examples](pneng-examples.md) | [Sample Text](pneng-sample-text.md)
+[Overview](README.md) | [Orthography](pneng-orthography.md) | [Grammar](pneng-grammar.md) | [Lexicon](pneng-lexicon.md) | [Examples](pneng-examples.md) | [Sample Text](pneng-sample-text.md)
 
 ## Valency Tags
 
@@ -376,3 +376,4 @@ Note: `frend-li` here is the adjective "friendly"; when used as an adverb (post-
 | `D` | `V [Adv] ta THEME SUBJ (tu/for RECIP)` | `giv kindli ta æ bük aj tu šī` |
 
 `bī` takes a **predicate complement** (NP, AdjP, or PP) rather than a `ta`-marked object.
+

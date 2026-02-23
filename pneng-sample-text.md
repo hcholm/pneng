@@ -1,6 +1,6 @@
 # Pneŋ Sample Text (Narrative v0.5)
 
-[Overview](pneng.md) | [Orthography](pneng-orthography.md) | [Grammar](pneng-grammar.md) | [Lexicon](pneng-lexicon.md) | [Examples](pneng-examples.md) | [Sample Text](pneng-sample-text.md)
+[Overview](README.md) | [Orthography](pneng-orthography.md) | [Grammar](pneng-grammar.md) | [Lexicon](pneng-lexicon.md) | [Examples](pneng-examples.md) | [Sample Text](pneng-sample-text.md)
 
 A short narrative demonstrating VOS order, prefix conjunctions, `ðæt`-relatives, and the verb group system.
 Each line is given with an interlinear parse and an English gloss.
@@ -296,4 +296,5 @@ May we remain strong and build a new future together now.
 | `COMPL` | `dän` completive aspect |
 | `PROG` | `iŋ` progressive aspect |
 | `PL` | `s` plural particle |
+
 
