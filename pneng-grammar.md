@@ -1,4 +1,4 @@
-# Pneŋ Grammar (Parser-Strict v0.6)
+# Pneŋ Grammar
 
 [Overview](README.md) | [Orthography](pneng-orthography.md) | [Grammar](pneng-grammar.md) | [Lexicon](pneng-lexicon.md) | [Examples](pneng-examples.md) | [Sample Text](pneng-sample-text.md)
 

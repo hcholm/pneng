@@ -1,4 +1,4 @@
-# Pneŋ Lexicon (v0.4)
+# Pneŋ Lexicon
 
 [Overview](README.md) | [Orthography](pneng-orthography.md) | [Grammar](pneng-grammar.md) | [Lexicon](pneng-lexicon.md) | [Examples](pneng-examples.md) | [Sample Text](pneng-sample-text.md)
 
